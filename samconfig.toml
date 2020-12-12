@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-api-rest-lambda-authorizer"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-15z7ml5pmwlb1"
+s3_prefix = "sam-api-rest-lambda-authorizer"
+region = "us-west-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
