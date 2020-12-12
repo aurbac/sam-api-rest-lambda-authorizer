@@ -6,7 +6,7 @@
 
 Open **[Postman](https://www.postman.com/downloads/)**, choose the **GET** method, and paste the API's Invoke URL into the adjacent URL field.
 
-Add the Lambda **Authorization** token header and set the value to allow. **Choose Send**.
+Add the Lambda `Authorization` token header and set the value to `allow`. **Choose Send**.
 
 ![Postman test API with Lambda Authorizer](images/postman.png)
 
